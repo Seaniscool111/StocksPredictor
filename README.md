@@ -7,7 +7,7 @@ The csv file of AAPL was obtained through Yahoo Finance, where I imported its da
 
 
 ## Building the Model
-The model  **Adjusted Close** section as the prediction target, reflecting Apple's true market value over time. The data was scaled using scikit-learn's MinMaxScaler and  transformed into a 60-day time-series window. I implemented a **Keras Sequential** model using a Long Short-Term Memory layer and Dense output layer was implemented to learn trending patterns to forecast the next adjusted close price.
+The model used **Adjusted Close** section as the prediction target, reflecting Apple's true market value over time. The data was scaled using scikit-learn's MinMaxScaler and  transformed into a 60-day time-series window. I implemented a **Keras Sequential** model using a Long Short-Term Memory layer and Dense output layer was implemented to learn trending patterns to forecast the next adjusted close price.
 
 ## Training the Model
 I split the scaled data into training and test sets and used trial and error to fine-tune key hyperparameters. By experimenting with different batch sizes and number of epochs, I found that using a batch size of 1 and training for 10 epochs produced the most accurate results.

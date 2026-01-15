@@ -3,7 +3,7 @@
 In this project, I analyzed the stock, Apple Inc. (AAPL), trying to predict the closing stock using Python and Machine Learning (LSTM). Using historical market data from Yahoo Finance and a Long Short-Term Memory (LSTM) neural network, the model learns patterns in price movement, volatility and momentum to forecast future stock trends.
 
 ## Analyzing Data
-The csv file of AAPL was obtained through Yahoo Finance, where I imported its data using the library'yfinance', and where it was cleaned and converted it into a CSV file for time-series analysis. The dataset includes: Open, High, Low, Close prices, Adjusted Close prices, Trading Volume.
+The csv file of AAPL was obtained through Yahoo Finance, where I imported its data using the library 'yfinance', and where it was cleaned and converted it into a CSV file for time-series analysis. The dataset includes: Open, High, Low, Close prices, Adjusted Close prices, Trading Volume.
 
 
 ## Building the Model
